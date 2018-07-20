@@ -426,7 +426,7 @@ public class AlbumFragment extends Fragment implements ImagePickerFragment.OnFra
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-        listener = null;                          //Check this hooinya, delete it if don't needed
+        listener = null;
         closeFragment();
     }
 
