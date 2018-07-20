@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_gravity="center"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/album_thumbnail_image"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:scaleType="centerCrop" />
+
+        <FrameLayout
+            android:id="@+id/album_back_layout"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:background="@drawable/selected_item_background"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/album_name_text"
+            android:layout_width="135dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="110dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:background="@color/album_name_back"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="15sp"
+            android:textColor="#eaeaea" />
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>
