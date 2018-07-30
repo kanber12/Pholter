@@ -35,7 +35,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
             imageHolder = itemView.findViewById(R.id.image_holder);
             imageDescription = itemView.findViewById(R.id.image_description);
 
-            itemView.setOnClickListener(new View.OnClickListener() {
+            imageHolder.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     int position = getAdapterPosition();
@@ -45,7 +45,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
                 }
             });
 
-            itemView.setOnLongClickListener(new View.OnLongClickListener() {
+            imageHolder.setOnLongClickListener(new View.OnLongClickListener() {
                 @Override
                 public boolean onLongClick(View view) {
                     int position = getAdapterPosition();
@@ -75,15 +75,23 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
     @Override
     public void onBindViewHolder(@NonNull ImageViewHolder holder, int position) {
         Image image = images.get(position);
+        String description = image.getDescription();
 
         int[] size = Utils.getImageSize(Uri.parse(image.getUri()));
         resize(holder.imageHolder, size);
 
         Glide.with(context).load(image.getUri()).into(holder.imageHolder);
-        holder.imageDescription.setText(image.getDescription());
 
-        if (position != images.size() - 1)
-            holder.imageDescription.append("\n\n\n\n\n\n");
+        if (position == images.size() - 1 && description.equals(""))
+            holder.imageDescription.setVisibility(View.GONE);
+        else {
+            holder.imageDescription.setVisibility(View.VISIBLE);
+
+            if (position != images.size() - 1)
+                description += "\n\n\n\n\n\n";
+        }
+
+        holder.imageDescription.setText(description);
 
         if (image.isSelected()) {
             holder.imageBackFrameLayout.setVisibility(View.VISIBLE);

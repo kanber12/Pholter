@@ -29,11 +29,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:textSize="18sp"
         android:textAlignment="center"
         android:textColor="#808080"
-        android:textStyle="italic" />
+        android:textStyle="italic"
+        android:visibility="gone" />
 
 </LinearLayout>
