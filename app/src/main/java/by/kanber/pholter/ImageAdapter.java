@@ -80,7 +80,10 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
         resize(holder.imageHolder, size);
 
         Glide.with(context).load(image.getUri()).into(holder.imageHolder);
-        holder.imageDescription.setText(String.valueOf(image.getDescription() + "\n\n\n\n"));
+        holder.imageDescription.setText(image.getDescription());
+
+        if (position != images.size() - 1)
+            holder.imageDescription.append("\n\n\n\n\n\n");
 
         if (image.isSelected()) {
             holder.imageBackFrameLayout.setVisibility(View.VISIBLE);
