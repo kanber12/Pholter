@@ -1,4 +1,4 @@
-package by.kanber.pholter;
+package by.kanber.pholter.util;
 
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;

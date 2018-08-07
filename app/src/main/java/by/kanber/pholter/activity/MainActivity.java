@@ -1,4 +1,4 @@
-package by.kanber.pholter;
+package by.kanber.pholter.activity;
 
 import android.Manifest;
 import android.content.Context;
@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.inputmethod.InputMethodManager;
 
+import by.kanber.pholter.R;
 import by.kanber.pholter.database.DBHelper;
 import by.kanber.pholter.fragment.AlbumsListFragment;
 

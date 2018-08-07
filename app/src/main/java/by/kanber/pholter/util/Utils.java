@@ -18,7 +18,7 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 
 import by.kanber.pholter.model.GalleryFolder;
-import by.kanber.pholter.MainActivity;
+import by.kanber.pholter.activity.MainActivity;
 import by.kanber.pholter.interfaces.PholterMedia;
 import by.kanber.pholter.model.GalleryImage;
 

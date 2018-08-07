@@ -28,8 +28,8 @@ import java.util.ArrayList;
 
 import by.kanber.pholter.adapter.AlbumAdapter;
 import by.kanber.pholter.database.DBHelper;
-import by.kanber.pholter.ItemTouchHelperCallback;
-import by.kanber.pholter.MainActivity;
+import by.kanber.pholter.util.ItemTouchHelperCallback;
+import by.kanber.pholter.activity.MainActivity;
 import by.kanber.pholter.R;
 import by.kanber.pholter.util.Utils;
 import by.kanber.pholter.model.Album;
