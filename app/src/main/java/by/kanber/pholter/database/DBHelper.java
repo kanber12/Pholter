@@ -1,4 +1,4 @@
-package by.kanber.pholter;
+package by.kanber.pholter.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

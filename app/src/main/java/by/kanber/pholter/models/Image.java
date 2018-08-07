@@ -1,11 +1,14 @@
-package by.kanber.pholter;
+package by.kanber.pholter.models;
 
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import java.util.ArrayList;
-import java.util.Collections;
+
+import by.kanber.pholter.database.DBHelper;
+import by.kanber.pholter.interfaces.PholterMedia;
+import by.kanber.pholter.util.Utils;
 
 public class Image implements PholterMedia {
     private int id, index, albumId;

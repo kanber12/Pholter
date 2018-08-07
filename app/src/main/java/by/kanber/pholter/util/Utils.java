@@ -1,4 +1,4 @@
-package by.kanber.pholter;
+package by.kanber.pholter.util;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -16,6 +16,11 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.SortedSet;
 import java.util.TreeSet;
+
+import by.kanber.pholter.models.GalleryFolder;
+import by.kanber.pholter.MainActivity;
+import by.kanber.pholter.interfaces.PholterMedia;
+import by.kanber.pholter.models.GalleryImage;
 
 public class Utils {
     public static boolean isEmpty(String text) {

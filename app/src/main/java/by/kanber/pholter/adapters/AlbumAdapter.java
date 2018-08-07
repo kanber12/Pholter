@@ -1,4 +1,4 @@
-package by.kanber.pholter;
+package by.kanber.pholter.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -15,6 +15,10 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 import java.util.Collections;
+
+import by.kanber.pholter.interfaces.ItemTouchHelperAdapter;
+import by.kanber.pholter.R;
+import by.kanber.pholter.models.Album;
 
 public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.AlbumViewHolder> implements ItemTouchHelperAdapter {
     private Context context;

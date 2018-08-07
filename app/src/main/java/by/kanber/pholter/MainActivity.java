@@ -8,9 +8,10 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+
+import by.kanber.pholter.database.DBHelper;
+import by.kanber.pholter.fragments.AlbumsListFragment;
 
 public class MainActivity extends AppCompatActivity {
     private DBHelper helper;

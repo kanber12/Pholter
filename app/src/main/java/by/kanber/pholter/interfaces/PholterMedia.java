@@ -1,4 +1,4 @@
-package by.kanber.pholter;
+package by.kanber.pholter.interfaces;
 
 public interface PholterMedia {
     int getId();
