@@ -11,7 +11,7 @@ import android.os.Bundle;
 import android.view.inputmethod.InputMethodManager;
 
 import by.kanber.pholter.database.DBHelper;
-import by.kanber.pholter.fragments.AlbumsListFragment;
+import by.kanber.pholter.fragment.AlbumsListFragment;
 
 public class MainActivity extends AppCompatActivity {
     private DBHelper helper;

@@ -17,10 +17,10 @@ import java.util.Comparator;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-import by.kanber.pholter.models.GalleryFolder;
+import by.kanber.pholter.model.GalleryFolder;
 import by.kanber.pholter.MainActivity;
 import by.kanber.pholter.interfaces.PholterMedia;
-import by.kanber.pholter.models.GalleryImage;
+import by.kanber.pholter.model.GalleryImage;
 
 public class Utils {
     public static boolean isEmpty(String text) {

@@ -1,4 +1,4 @@
-package by.kanber.pholter.adapters;
+package by.kanber.pholter.adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -14,7 +14,7 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 
 import by.kanber.pholter.R;
-import by.kanber.pholter.models.GalleryImage;
+import by.kanber.pholter.model.GalleryImage;
 
 public class GalleryImageAdapter extends RecyclerView.Adapter<GalleryImageAdapter.GalleryImagesViewHolder> {
     private Context context;

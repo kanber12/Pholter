@@ -1,4 +1,4 @@
-package by.kanber.pholter.adapters;
+package by.kanber.pholter.adapter;
 
 import android.content.Context;
 import android.net.Uri;
@@ -16,7 +16,7 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 
 import by.kanber.pholter.R;
-import by.kanber.pholter.models.Image;
+import by.kanber.pholter.model.Image;
 import by.kanber.pholter.util.Utils;
 
 public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHolder> {

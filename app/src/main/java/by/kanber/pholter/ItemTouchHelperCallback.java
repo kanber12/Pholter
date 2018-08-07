@@ -3,7 +3,7 @@ package by.kanber.pholter;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 
-import by.kanber.pholter.adapters.ImageGridAdapter;
+import by.kanber.pholter.adapter.ImageGridAdapter;
 import by.kanber.pholter.interfaces.ItemTouchHelperAdapter;
 
 public class ItemTouchHelperCallback extends ItemTouchHelper.Callback {

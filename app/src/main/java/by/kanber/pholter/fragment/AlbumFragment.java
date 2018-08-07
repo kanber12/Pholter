@@ -1,4 +1,4 @@
-package by.kanber.pholter.fragments;
+package by.kanber.pholter.fragment;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -30,13 +30,13 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 import by.kanber.pholter.database.DBHelper;
-import by.kanber.pholter.adapters.ImageAdapter;
-import by.kanber.pholter.adapters.ImageGridAdapter;
+import by.kanber.pholter.adapter.ImageAdapter;
+import by.kanber.pholter.adapter.ImageGridAdapter;
 import by.kanber.pholter.ItemTouchHelperCallback;
 import by.kanber.pholter.MainActivity;
 import by.kanber.pholter.R;
 import by.kanber.pholter.util.Utils;
-import by.kanber.pholter.models.Image;
+import by.kanber.pholter.model.Image;
 
 public class AlbumFragment extends Fragment implements ImagePickerFragment.OnFragmentInteractionListener {
     private RecyclerView recyclerView;

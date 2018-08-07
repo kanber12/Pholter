@@ -1,4 +1,4 @@
-package by.kanber.pholter.fragments;
+package by.kanber.pholter.fragment;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -15,13 +15,13 @@ import android.widget.Button;
 
 import java.util.ArrayList;
 
-import by.kanber.pholter.models.GalleryFolder;
-import by.kanber.pholter.adapters.GalleryFolderAdapter;
-import by.kanber.pholter.adapters.GalleryImageAdapter;
+import by.kanber.pholter.model.GalleryFolder;
+import by.kanber.pholter.adapter.GalleryFolderAdapter;
+import by.kanber.pholter.adapter.GalleryImageAdapter;
 import by.kanber.pholter.MainActivity;
 import by.kanber.pholter.R;
 import by.kanber.pholter.util.Utils;
-import by.kanber.pholter.models.GalleryImage;
+import by.kanber.pholter.model.GalleryImage;
 
 public class ImagePickerFragment extends Fragment {
     private OnFragmentInteractionListener mListener;

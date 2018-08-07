@@ -1,4 +1,4 @@
-package by.kanber.pholter.fragments;
+package by.kanber.pholter.fragment;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -26,14 +26,14 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import by.kanber.pholter.adapters.AlbumAdapter;
+import by.kanber.pholter.adapter.AlbumAdapter;
 import by.kanber.pholter.database.DBHelper;
 import by.kanber.pholter.ItemTouchHelperCallback;
 import by.kanber.pholter.MainActivity;
 import by.kanber.pholter.R;
 import by.kanber.pholter.util.Utils;
-import by.kanber.pholter.models.Album;
-import by.kanber.pholter.models.Image;
+import by.kanber.pholter.model.Album;
+import by.kanber.pholter.model.Image;
 
 
 public class AlbumsListFragment extends Fragment implements AlbumFragment.OnFragmentInteractionListener {

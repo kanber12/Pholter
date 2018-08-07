@@ -1,4 +1,4 @@
-package by.kanber.pholter.adapters;
+package by.kanber.pholter.adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -15,7 +15,7 @@ import java.util.Collections;
 
 import by.kanber.pholter.interfaces.ItemTouchHelperAdapter;
 import by.kanber.pholter.R;
-import by.kanber.pholter.models.Image;
+import by.kanber.pholter.model.Image;
 
 public class ImageGridAdapter extends RecyclerView.Adapter<ImageGridAdapter.ImageGridViewHolder> implements ItemTouchHelperAdapter {
     private Context context;

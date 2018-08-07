@@ -1,4 +1,4 @@
-package by.kanber.pholter.adapters;
+package by.kanber.pholter.adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -13,7 +13,7 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
-import by.kanber.pholter.models.GalleryFolder;
+import by.kanber.pholter.model.GalleryFolder;
 import by.kanber.pholter.R;
 
 public class GalleryFolderAdapter extends RecyclerView.Adapter<GalleryFolderAdapter.GalleryFoldersViewHolder> {

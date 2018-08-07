@@ -1,4 +1,4 @@
-package by.kanber.pholter.adapters;
+package by.kanber.pholter.adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -18,7 +18,7 @@ import java.util.Collections;
 
 import by.kanber.pholter.interfaces.ItemTouchHelperAdapter;
 import by.kanber.pholter.R;
-import by.kanber.pholter.models.Album;
+import by.kanber.pholter.model.Album;
 
 public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.AlbumViewHolder> implements ItemTouchHelperAdapter {
     private Context context;

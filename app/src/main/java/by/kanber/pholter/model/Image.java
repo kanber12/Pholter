@@ -1,4 +1,4 @@
-package by.kanber.pholter.models;
+package by.kanber.pholter.model;
 
 import android.content.ContentValues;
 import android.database.Cursor;

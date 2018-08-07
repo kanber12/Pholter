@@ -1,4 +1,4 @@
-package by.kanber.pholter.models;
+package by.kanber.pholter.model;
 
 public class GalleryImage {
     private boolean isSelected = false;

@@ -1,8 +1,6 @@
-package by.kanber.pholter.models;
+package by.kanber.pholter.model;
 
 import java.util.ArrayList;
-
-import by.kanber.pholter.models.GalleryImage;
 
 public class GalleryFolder {
     private String name;
